@@ -1,0 +1,88 @@
+body{
+    padding: 60px 0px 0px 0px;
+    z-index: 0;
+}
+.navcol{
+    background-color: #457b9d;
+}
+
+.brandnam{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navli{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.aboutsec{
+    text-align: center;
+    background-color: #1d3557;
+    padding: 2%;
+}
+.phoimg{
+   max-width: 100%;
+   height: auto;
+   width: 75%;
+   border-radius: 30%;
+   box-shadow: #a8dadc 3px 3px 3px;  
+}
+.photocol , .infocol{
+    padding: 3%;
+}
+.abtrow{
+    margin-bottom: 40px;
+}
+.abtrow h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    color: #2ec4b6;
+}
+
+.inforow h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: #4ea8de;
+    line-height: 1.5;
+}
+.extratxt{
+    font-size: 35px;
+    color: white;
+}
+.prosec{
+    padding: 3%;
+    background-color: #a8dadc;
+}
+
+.proh3{
+    text-align: center;
+    background-color: #e63946;
+    padding: 1%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    margin: 0px auto 0px auto;
+}
+.consec{
+    padding: 2% 2% 1%;
+    text-align: center;
+    background-color: #457b9d;
+}
+.consec h4{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1024px){
+    .phoimg{
+        width: 50%;
+        border-radius: 100%;
+     }
+     .proh3{
+         width: 100%;
+     }
+     .proh3 h3{
+         font-size: 25px;
+     }
+}
