@@ -17,6 +17,9 @@ body{
 .aboutsec{
     text-align: center;
     background-color: #1d3557;
+    /* padding: 2%; */
+}
+.aborow{
     padding: 2%;
 }
 .phoimg{
