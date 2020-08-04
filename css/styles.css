@@ -52,10 +52,11 @@ body{
     color: white;
 }
 .prosec{
-    padding: 3%;
     background-color: #a8dadc;
 }
-
+.prosecrow{
+    padding: 2%;
+}
 .proh3{
     text-align: center;
     background-color: #e63946;
@@ -64,6 +65,20 @@ body{
     font-family: 'Ubuntu', sans-serif;
     width: 50%;
     margin: 0px auto 0px auto;
+}
+.prosecrow2{
+    padding: 2%;
+}
+.proseccol{
+    margin-bottom: 20px;
+}
+.card1{
+    margin: auto;
+    width: 70%;
+}
+.cardimg{
+    max-width: 100%;
+    height: auto;
 }
 .consec{
     padding: 2% 2% 1%;
